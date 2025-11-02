@@ -1,6 +1,4 @@
-#ცვლადები
-
-
+#ცვლადები 
 
 #string
 messi = ("world cup")
