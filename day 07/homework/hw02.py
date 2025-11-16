@@ -1,0 +1,15 @@
+#ჩამოწერე and და or ყველა შესაძლო ვარიანტი
+
+
+#and
+
+print(True and True)
+print(True and False)
+print(False and False)
+
+
+#or
+
+print(True or True)
+print(True or False)
+print(False or False)
