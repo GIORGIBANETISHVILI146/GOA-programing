@@ -1,0 +1,38 @@
+<!-- შექმენი Register და Log in,თავდაპირვლეად უნდა ჩანდეს Register გვერდი,სადაც მომხარებელს შეეკითხებით სახელს,ემაილს,პაროლს და განმეორბით პაროლს,ბოლოს კი იქნება submit ღილაკი.
+მის ქვემოთ უნდა იყოს ღილაკი რომლის დაჭერის დროსაც გადაგიყვანთ Login in გვერდზე
+
+Login in- ზე მომხარებელს შეეკითხების ემაილს და პაროლს ასევე ბოლოს კი დაამატეთ ღილაკს სადაც ეწერება submit,ამათ ქვემოთ იქნება ღილაკი რომლის დაჭერის დროსაც დაგაბრუნებთ Register-გვერდზ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body>
+    <center>
+        <form>
+            <h1>Register</h1>
+            <label for="first name">first name:</label>
+            <input type="text" id="firstname" placeholder="Enter your firstname:"><br><br>
+
+            <label for="last name">last name:</label>
+            <input type="text" id="lastname" placeholder="Enter your last name:"><br><br>
+
+            <label for="useremail">email:</label>
+            <input type="email" id="useremail" placeholder="Enter your Email:" ><br><br>
+
+            <label for="password:">password:  </label>
+            <input type="password" id="password" placeholder="Enter your password:" ><br><br>
+
+            <label for="confrim password:">confrim password:  </label>
+            <input type="password" id="confrim password" placeholder="Confrim your password:"
+            ><br><br>
+
+            <input type="submit"><br>
+        </form>
+        <a href = "login.html"> <button> login in </button></a>
+    </center>
+</body>
+</html>
