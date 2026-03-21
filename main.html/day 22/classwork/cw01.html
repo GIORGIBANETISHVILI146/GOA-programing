@@ -1,0 +1,48 @@
+<!-- შექმენით მსგავსი FORM
+
+გამოიყენეთ ახალი ნასწავლი ატრიბუტები
+name, maxlength, minlength, reqiured -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <h1>Feedback</h1>
+        <form>
+            <label for="username">Name:</label><br>
+            <input type="text" id="username" name="username" maxlength="24" minlength="" required><br><br>
+
+            <label for="Comment">Comment:</label><br>
+            <input type="text" id="comment"  name="Comment" maxlength="50" minlength="50" required><br><br>
+
+            <h4>Rate your experience:</h4>
+
+            <label for="Exs">Excellent</label>
+            <input type="radio" name="Exs" id="Exs" required>
+            <br>
+
+            <label for="good">Good</label>
+            <input type="radio" name="good" id="good" required>
+            <br>
+
+            <label for="average">Average</label>
+            <input type="radio" name="average" id="average" required>
+            <br>
+
+            <label for="poor">Poor</label>
+            <input type="radio" name="poor" id="poor" required>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            
+
+            <input type="submit" value="Submit Feedback">
+        </form>  
+</body>
+</html>
