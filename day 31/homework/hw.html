@@ -1,0 +1,88 @@
+<!-- 1)შექმნი p თეგი რომელსაც უნდა ქონდეს:
+-უკანა ფერი შავი
+-წითელი ფერი
+2)შექმენით h1 თეგი
+-გადაიტანე ცენტრში
+-მისი ზომა იყოს 25px
+
+4)internal css,შექმენით 3 ცალი p თეგი
+-უნდა იყოს მარჯვენა მხარეს
+-უკანა ფერი უნდა იყოს ყვითელი
+
+5)external css.შექმენით div,ამ div-ში შექმენი h1 და p
+->p<-
+1)უნდა იყოს მწვანე ფერის
+2)უკანა ფერი უნდა იყოს ყავისფერის
+
+->div<-
+1)უნდა იყოს ნაცრისფერი
+
+->h1<-
+1)უნდა იყოს 67px
+2)უნდა იყოს მარჯვენა მხარეს
+
+6)შექმენით 2 input,პირველი უნდა იყოს სახელისთვის მეორე კი გვარისთვის(გამოიყენეთ placeholder)
+-უკანა ფერი უნდა იყოს შავი
+-ფერი უნდა იყოს თეთრი
+
+
+7)შექმენით h1-h6,inline css
+1)ყველას უნდა ქონდეს სხვადასხვა ფერი
+2)უნად იყოს ყველა სხვადასხა ზომის
+3)ყველა უნდა ქონდეს განსხვავებული უკანა ფერი
+
+8)შექმენით  div,სადაც უნდა იყოს h1,p
+->div<-
+1)უკანა ფერი უნდა იყოს ნაცრისფერი
+
+->h1<-
+1)უნდა იყოს ვარდისფერი
+2)უკანა ფერი უნდა იყოს მწვანე
+3)უნდა იყოს ცენტრში
+->p<-
+1)უნდა იყოს 30px
+2)უნდა იყოს ცენტრში
+
+9)external css,შექმენი button და p
+->button , p <--
+1)უდნა იყოს ცენტრში
+2)უნდა იყოს წითელი ფერის
+3)უნდა იყოს 30px
+(ორივეს ერთად მიწვდით) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p style="background-color: black; color: red;">Hello, World!</p>
+    <h1 style="text-align: center; font-size: 25px;">This is a Heading</h1>
+    <p style="text-align: right; background-color: yellow;">Paragraph 1</p>
+    <p style="text-align: right; background-color: yellow;">Paragraph 2</p>
+    <p style="text-align: right; background-color: yellow;">Paragraph 3</p>
+    <div style="background-color: gray;">   
+        
+        <h1 style="font-size: 67px; text-align: right;">Heading in Div</h1>
+        <p style="color: green; background-color: brown;">Paragraph in Div</p>
+    </div>
+    <input type="text" placeholder="First Name" style="background-color: black; color: white;">
+    <input type="text" placeholder="Last Name" style="background-color: black; color: white;">
+    <h1 style="color: red; font-size: 30px; background-color: yellow;">Heading 1</h1>
+    <h2 style="color: blue; font-size: 25px; background-color: lightgray;">Heading 2</h2>
+    <h3 style="color: green; font-size: 20px; background-color: lightblue;">Heading 3</h3>
+    <h4 style="color: orange; font-size: 15px; background-color: lightgreen;">Heading 4</h4>
+    <h5 style="color: purple; font-size: 10px; background-color: lightpink;">Heading 5</h5>
+    <h6 style="color: brown; font-size: 5px; background-color: lightyellow;">Heading 6</h6>
+    <div style="background-color: gray; text-align: center;">
+        <h1 style="color: pink; background-color: green;">Heading in Centered Div</h1>
+        <p style="font-size: 30px; text-align: center;">Paragraph in Centered Div</p>
+    </div>
+    <button style="display: block; margin: 0 auto; color: red; font-size: 30px;">Click Me</button>
+    <p style="text-align: center; color: red; font-size: 30px;">This is a centered paragraph</p>
+    
+    
+</body>
+</html>
