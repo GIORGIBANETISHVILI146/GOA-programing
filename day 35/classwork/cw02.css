@@ -1,0 +1,7 @@
+/* გააკეთეთ მართკუთხედი ზომით 300px × 180px, მწვანე უკანა ფონი და 25px მომრგვალება. */
+div{
+    width: 300px;
+    height: 180px;
+    background-color: green;
+    border-radius: 25px;
+}

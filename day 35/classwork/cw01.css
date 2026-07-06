@@ -1,0 +1,7 @@
+/*  გააკეთეთ კვადრატი ზომით 200px × 200px, წითელი უკანა ფონი და 15px მომრგვალება. */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 15px;
+}
