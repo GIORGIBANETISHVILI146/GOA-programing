@@ -1,0 +1,7 @@
+/* შექმენით article და გაუწერეთ font-size: 28px;. მის შიგნით შექმენით small თეგი და გაუწერეთ მშობლის 60% ზომა. */
+article{
+    font-size: 28px;
+}
+small{
+    font-size: 60%;
+}

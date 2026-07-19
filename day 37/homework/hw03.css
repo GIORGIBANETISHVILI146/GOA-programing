@@ -1,0 +1,16 @@
+/* შექმენი 15 ცალი თეგი,ყვლას უნდა ქონდედს შავი უკანა ფერი და თეთრი ფერ,ლუწ რიცხვებზე მყოფ p თეგ უნდა ქონდეს height 250px,კენტ რიცხვებზე მყოფ p თეგ უნდა ქონდეს height 300px */
+p {
+  background-color: black;
+  color: white;
+  margin: 10px 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.odd{
+  height: 300px;
+}
+
+.even{
+  height: 250px;
+}
