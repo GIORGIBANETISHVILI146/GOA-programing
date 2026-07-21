@@ -1,0 +1,7 @@
+/* შექმენით article და გაუწერეთ font-size: 45px;. შიგნით შექმენით p და გაუწერეთ მშობლის 40% ზომა. */
+article{
+    font-size: 45px;
+}
+p{
+    font-size: 40%;
+}

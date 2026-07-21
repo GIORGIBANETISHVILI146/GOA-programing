@@ -1,0 +1,7 @@
+/* შექმენით main და გაუწერეთ font-size: 52px;. შიგნით შექმენით button და გაუწერეთ მშობლის 150% ზომა. */
+main{
+    font-size: 52px;
+}
+button{
+    font-size: 150%;
+}
