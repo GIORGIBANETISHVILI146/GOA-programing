@@ -1,0 +1,13 @@
+/* შექმენით `h1`, `h2`, `h3` ელემენტები:
+    - `h1` → `uppercase`
+    - `h2` → `lowercase`
+    - `h3` → `capitalize` */
+h1{
+    text-transform: uppercase;
+}
+h2{
+    text-transform: lowercase;
+}
+h3{
+    text-transform: capitalize;
+}

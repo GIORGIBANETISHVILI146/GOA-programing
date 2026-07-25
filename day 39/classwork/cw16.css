@@ -1,0 +1,10 @@
+/* შექმენით სამი `p` ელემენტი, პირველს გაუწერეთ `uppercase`, მეორეს `lowercase`, ხოლო მესამეს `capitalize`. */
+.first{
+    text-transform: uppercase;
+}
+.second{
+    text-transform: lowercase;
+}
+.third{
+    text-transform: capitalize;
+}

@@ -1,0 +1,13 @@
+/* შექმენით `h1`, `h2` და `h3` ელემენტები:
+    - `h1` → `underline dashed red`
+    - `h2` → `line-through wavy blue`
+    - `h3` → `overline dotted green 4px` */
+h1{
+    text-decoration: underline dashed red;
+}
+h2{
+    text-decoration: line-through wavy blue;
+}
+h3{
+    text-decoration: overline dotted green 4px;
+}

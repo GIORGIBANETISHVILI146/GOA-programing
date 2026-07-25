@@ -1,0 +1,4 @@
+/* შექმენით `p` ელემენტი და გამოიყენეთ `text-decoration: line-through solid black 2px;`. */
+p{
+    text-decoration: line-through solid black 2px;
+}

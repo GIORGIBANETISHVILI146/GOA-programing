@@ -1,0 +1,4 @@
+/*  შექმენით `button` ელემენტი და მისი ტექსტი `uppercase`-ად გადააკეთეთ. */
+button{
+    text-transform: uppercase;
+}

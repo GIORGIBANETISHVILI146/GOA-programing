@@ -1,0 +1,4 @@
+/* შექმენით p ელემენტი და გაუწერეთ ქვედა ხაზი (underline), dotted სტილით, teal ფერით და 3px სისქით. */
+p{
+    text-decoration: underline dotted teal 3px;
+}

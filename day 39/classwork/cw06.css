@@ -1,0 +1,4 @@
+/* შექმენით `span` ელემენტი და გაუწერეთ შუა ხაზი (`line-through`), `wavy` სტილით, `rgb(255, 0, 255)` ფერით და `5px` სისქით. */
+span{
+    text-decoration: line-through wavy rgb(255,0,255) 5px;
+}

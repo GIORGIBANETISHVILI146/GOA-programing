@@ -1,0 +1,4 @@
+/* შექმენით h2 ელემენტი და გაუწერეთ შუა ხაზი (line-through), dashed სტილით და crimson ფერით. */
+h2 {
+    text-decoration: line-through dashed crimson ;
+}

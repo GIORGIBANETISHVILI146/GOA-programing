@@ -1,0 +1,4 @@
+/* შექმენით `li` ელემენტები (`ul` სიაში) და ყველა ელემენტის ტექსტს გაუწერეთ `capitalize`. */
+ul{
+    text-transform: capitalize;
+}

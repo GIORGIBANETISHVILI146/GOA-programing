@@ -1,0 +1,4 @@
+/* შექმენით a ელემენტი და გაუწერეთ ქვედა ხაზი (underline), solid სტილით, coral ფერით და 5px სისქით. */
+a{
+    text-decoration: underline solid coral 5px;
+}
