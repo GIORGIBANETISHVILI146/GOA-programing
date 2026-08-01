@@ -1,0 +1,5 @@
+/*  შექმენით ერთი p ელემენტი შემდეგ google fonts ვებსაიტზე მოიძიეთ Archivo Black ფონტი და დააყენეთ მაგ პარაგრაფზე */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+p{
+    font-family: "Archivo Black" , sans-serif ;
+}

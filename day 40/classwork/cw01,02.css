@@ -1,0 +1,23 @@
+/* შედი google fonts website-ზე და აარჩიე შენი სასურველი 5 font-ი */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Playwrite+NZ+Guides&display=swap');
+#first{
+    font-family:"Bitcount Prop Single" , sans-serif;
+}
+#second{
+    font-family: "Playwrite NZ Guides" , sans-serif ;
+}
+#third{
+    font-family: "Jersey 10 Charted" , sans-serif;
+}
+#fourth{
+    font-family: Caveat , sans-serif;
+}
+#fifth{
+    font-family: Honk , sans-serif;
+}

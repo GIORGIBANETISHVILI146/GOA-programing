@@ -1,0 +1,5 @@
+/* შექმენით ერთი h1 ელემენტი შემდეგ google fonts ვებსაიტზე მოიძიეთ Share Tech Mono ფონტი და ფააყენეთ მაგ სათაურზე */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+h1{
+    font-family: "Share Tech Mono" , sans-serif;
+}

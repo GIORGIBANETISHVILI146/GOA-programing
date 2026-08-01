@@ -1,0 +1,5 @@
+/* შექმენით ერთი h1 ელემენტი შემდეგ google fonts ვებსაიტზე მოიძიეთ Yuyu Short ფონტი და ფააყენეთ მაგ სათაურზე */
+@import url('https://fonts.googleapis.com/css2?family=Yuyu+Short&display=swap');
+h1{
+    font-family: "Yuyu Short" , sans-serif;
+}
