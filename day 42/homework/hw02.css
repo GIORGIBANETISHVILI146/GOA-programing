@@ -1,0 +1,4 @@
+/* შექმენი <ol> სია 6 ვებ-ბრაუზერით და გამოიყენე lower-alpha. */
+ol {
+    list-style-type: lower-alpha;
+}

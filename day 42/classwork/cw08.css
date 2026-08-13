@@ -1,0 +1,4 @@
+/* შექმენი <ol> სია 5 ტექნოლოგიით და გამოიყენე lower-greek. */
+ol {
+    list-style-type: lower-greek;
+}

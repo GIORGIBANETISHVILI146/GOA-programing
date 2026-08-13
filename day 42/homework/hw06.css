@@ -1,0 +1,4 @@
+/* შექმენი <ol> სია 5 ქვეყანით და გამოიყენე upper-latin. */
+ol {
+    list-style-type: upper-latin;
+}

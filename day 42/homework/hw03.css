@@ -1,0 +1,4 @@
+/* შექმენი <ol> სია 5 შენი დღის აქტივობით და გამოიყენე decimal-leading-zero. */
+ol {
+    list-style-type: decimal-leading-zero;
+}

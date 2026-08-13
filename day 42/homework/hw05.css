@@ -1,0 +1,4 @@
+/* შექმენი <ol> სია 7 წიგნით და გამოიყენე lower-roman. */
+ol {
+    list-style-type: lower-roman;
+}

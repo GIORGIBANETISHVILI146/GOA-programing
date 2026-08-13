@@ -1,0 +1,4 @@
+/* შექმენი <ol> სია 5 სასკოლო საგნით და გამოიყენე georgian. */
+ol {
+    list-style-type: georgian;
+}

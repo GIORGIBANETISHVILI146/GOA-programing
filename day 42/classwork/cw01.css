@@ -1,0 +1,4 @@
+/* შექმენი <ul> სია 5 ხილით და list-style-type-ით სიმბოლოდ გამოიყენე square. */
+ul {
+    list-style-type: square;
+}

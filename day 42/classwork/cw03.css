@@ -1,0 +1,4 @@
+/* შექმენი <ol> სია 5 საყვარელი ფილმით და გამოიყენე upper-roman. */
+ol {
+    list-style-type: upper-roman;
+}

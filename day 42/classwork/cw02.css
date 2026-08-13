@@ -1,0 +1,4 @@
+/* შექმენი <ul> სია 5 ცხოველით და გამოიყენე circle. */
+ul{
+    list-style-type: circle;
+}

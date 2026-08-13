@@ -1,0 +1,4 @@
+/* შექმენი <ol> სია 5 პროგრამირების ენით და გამოიყენე lower-alpha. */
+ol{
+    list-style-type: lower-alpha;
+}

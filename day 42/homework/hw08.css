@@ -1,0 +1,11 @@
+/* შექმენი ორი <ol> სია:
+
+პირველი — 5 სპორტით, upper-roman
+მეორე — 5 თამაშით, lower-alpha */
+.sports {
+    list-style-type: upper-roman;
+}
+
+.games {
+    list-style-type: lower-alpha;
+}
