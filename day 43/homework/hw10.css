@@ -1,0 +1,5 @@
+/* 5. შექმენი card და გამოიყენე margin: 20px auto, რათა card ჰორიზონტალურად ცენტრში მოათავსო. */
+.card {
+    width: 300px;
+    margin: 20px auto;
+}

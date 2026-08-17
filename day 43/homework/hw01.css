@@ -1,0 +1,7 @@
+/* 1. შექმენი div, რომელსაც ექნება 50px padding ზემოდან და ქვემოდან, ხოლო 20px მარცხნიდან და მარჯვნიდან. */
+div{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

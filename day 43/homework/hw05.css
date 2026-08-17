@@ -1,0 +1,6 @@
+/* 5. შექმენი პატარა card, რომელსაც ექნება background-color, border და 30px padding. შიგნით ჩასვი სათაური და ტექსტი. */
+.card {
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 30px;
+}

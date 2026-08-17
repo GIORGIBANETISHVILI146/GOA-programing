@@ -1,0 +1,11 @@
+/* 2. შექმენი div, რომელსაც ექნება:
+   padding-top: 10px
+   padding-right: 20px
+   padding-bottom: 30px
+   padding-left: 40px */
+.box {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
