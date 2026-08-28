@@ -1,0 +1,18 @@
+/* <!--1) შექმენი 500px × 500px ზომის parent ელემენტი და მასში მოათავსე 3 child ელემენტი. შვილობილი ელემენტები განათავსე მთავარი ღერძის ცენტრში.--> */
+*{
+  padding: 0px;
+  margin: 0px; 
+  box-sizing: border-box;
+}
+body{
+    height: 100hv;
+}
+
+#1{
+    width: 500px;
+    height: 500px;
+}
+#2{
+    justify-content: center;
+    align-items: center;
+}

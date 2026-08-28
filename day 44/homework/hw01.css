@@ -1,0 +1,24 @@
+/* 1)შექმენი 800px × 500px ზომის parent ელემენტი და მასში მოათავსე 5 child ელემენტი. ყველა ელემენტი განათავსე მთავარი ღერძის დასაწყისში და მეორე ღერძის ცენტრში. */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+#parent{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}

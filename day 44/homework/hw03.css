@@ -1,0 +1,12 @@
+.parent {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.child {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+}
