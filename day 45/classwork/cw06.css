@@ -1,0 +1,14 @@
+.parent {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}

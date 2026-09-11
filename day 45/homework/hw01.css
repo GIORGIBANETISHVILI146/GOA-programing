@@ -1,0 +1,17 @@
+/* 6. შექმენი 600px × 500px ზომის parent ელემენტი და მასში მოათავსე 9 child ელემენტი. ელემენტები განალაგე ჰორიზონტალურად საპირისპირო მიმართულებით და როცა სივრცე აღარ იქნება, გადაიტანე შემდეგ ხაზზე. ელემენტები მეორე ღერძის ბოლოსკენ განათავსე. */
+
+.parent {
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.child {
+    width: 80px;
+    height: 60px;
+    border: 1px solid black;
+}

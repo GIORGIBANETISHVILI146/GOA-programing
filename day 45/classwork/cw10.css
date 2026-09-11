@@ -1,0 +1,15 @@
+.parent {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}

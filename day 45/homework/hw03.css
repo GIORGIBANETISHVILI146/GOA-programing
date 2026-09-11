@@ -1,0 +1,18 @@
+/* 8. შექმენი 800px × 500px ზომის parent ელემენტი და მასში მოათავსე 14 child ელემენტი. ელემენტები განალაგე ჰორიზონტალურად და საჭიროების შემთხვევაში გადაიტანე შემდეგ ხაზზე. ელემენტებს შორის გააკეთე თანაბარი დაშორება, ხოლო მეორე ღერძის მიხედვით განათავსე ცენტრში. */
+
+.parent {
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.child {
+    width: 80px;
+    height: 60px;
+    border: 1px solid black;
+}
