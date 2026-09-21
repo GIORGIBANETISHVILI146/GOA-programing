@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>QR Code Card</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0d9e8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 25px 30px;
+    width: 280px;
+    text-align: center;
+  }
+  .qr-box {
+    background-color: #2563eb;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .qr-box img {
+    width: 150px;
+    height: 150px;
+    display: block;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #1e293b;
+    margin-bottom: 10px;
+  }
+  .description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="qr-box">
+      <img src="image-qr-code.png" alt="QR Code" />
+    </div>
+    <div class="title">Improve your front-end skills by building projects</div>
+    <div class="description">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
+  </div>
+</body>
+</html>
