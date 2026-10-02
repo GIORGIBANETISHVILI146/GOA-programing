@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.design {
+    width: 330px;
+    height: 220px;
+    background: #00a651;
+    position: relative;
+    overflow: hidden;
+}
+
+.blue {
+    width: 220px;
+    height: 150px;
+    background: #176678;
+    position: absolute;
+    left: 45px;
+    top: 25px;
+}
+
+.orange {
+    width: 100px;
+    height: 100px;
+    background: #ffae32;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.second .orange {
+    left: 45px;
+    top: 25px;
+}
+
