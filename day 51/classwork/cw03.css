@@ -1,0 +1,10 @@
+
+.photo {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    background-image: url("https://picsum.photos/id/10/600/400");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

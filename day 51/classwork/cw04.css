@@ -1,0 +1,20 @@
+
+div {
+    width: 250px;
+    height: 200px;
+    background-image: url("https://picsum.photos/id/10/600/400");
+    background-repeat: no-repeat;
+    background-color: lightgray;
+}
+
+.one {
+    background-position: top left;
+}
+
+.two {
+    background-position: center;
+}
+
+.three {
+    background-position: bottom right;
+}

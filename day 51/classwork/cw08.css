@@ -1,0 +1,40 @@
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("https://picsum.photos/id/10/1200/800");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+.one {
+    background-image: url("https://picsum.photos/id/20/500/500");
+    background-size: cover;
+    background-position: top left;
+}
+
+.two {
+    background-image: url("https://picsum.photos/id/30/500/500");
+    background-size: contain;
+    background-position: center;
+}
+
+.three {
+    background-image: url("https://picsum.photos/id/40/500/500");
+    background-size: 150px 150px;
+    background-position: bottom right;
+}

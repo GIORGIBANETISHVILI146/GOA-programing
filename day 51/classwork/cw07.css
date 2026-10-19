@@ -1,0 +1,15 @@
+
+body {
+    background-image: url("https://picsum.photos/id/10/1200/800");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    height: 200px;
+    margin: 20px;
+    background-color: lightblue;
+    font-size: 30px;
+}
