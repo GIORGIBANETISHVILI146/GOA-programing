@@ -1,0 +1,23 @@
+
+.square {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+p {
+    color: white;
+    transition: 1s;
+}
+
+.square:hover {
+    transform: scale(1.5);
+}
+
+.square:hover p {
+    transform: rotate(45deg);
+}
