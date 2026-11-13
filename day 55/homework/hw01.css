@@ -1,0 +1,36 @@
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+
+    animation-name: complex;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes complex {
+    0% {
+        background-color: red;
+        transform: translateX(0) rotate(0deg);
+    }
+
+    25% {
+        background-color: yellow;
+        transform: translateX(0) rotate(90deg);
+    }
+
+    50% {
+        background-color: green;
+        transform: translateX(200px) rotate(90deg);
+    }
+
+    75% {
+        background-color: blue;
+        transform: translateX(200px) rotate(270deg);
+    }
+
+    100% {
+        background-color: red;
+        transform: translateX(0) rotate(0deg);
+    }
+}

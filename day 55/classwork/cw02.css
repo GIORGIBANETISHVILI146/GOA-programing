@@ -1,0 +1,31 @@
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    animation-name: colors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    75% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: purple;
+    }
+}
